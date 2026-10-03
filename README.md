@@ -17,7 +17,7 @@ A command-line app that combines a **calculator**, **unit converter** and **curr
 ## 🚀 Getting Started
 
 ```bash
-git clone https://github.com/<your-username>/calculator-unit-converter.git
+git clone https://github.com/<DeXxM>/calculator-unit-converter.git
 cd calculator-unit-converter
 pip install -r requirements.txt
 python Cal_Project.py
