@@ -1,0 +1,5 @@
+# Requires Python 3.8 or newer
+# Install with: pip install -r requirements.txt
+
+# Currency conversion (the only third-party library this project needs)
+CurrencyConverter>=0.18
