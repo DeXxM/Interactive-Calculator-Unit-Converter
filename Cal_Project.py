@@ -110,7 +110,6 @@ def run_unit_con():
     except ValueError as e:
         print(f"Invalid input: {e}")
 
-
 # ---------------------------------------------------------------------------
 # CURRENCY CONVERSION
 # ---------------------------------------------------------------------------
@@ -151,7 +150,6 @@ def print_menu():
     print("3. Unit Conversion")
     print("4. Exit")
  
- 
 def main():
     while True:
         print_menu()
@@ -168,7 +166,6 @@ def main():
             break
         else:
             print("Invalid option, please choose 1-4.")
- 
  
 if __name__ == "__main__":
     main()

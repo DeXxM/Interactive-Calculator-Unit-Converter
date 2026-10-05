@@ -1,11 +1,11 @@
-# 🧮 Interactive Calculator & Unit Converter
+# Interactive Calculator & Unit Converter
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white)
 ![Type](https://img.shields.io/badge/Type-CLI%20App-orange)
 
 A command-line app that combines a **calculator**, **unit converter** and **currency converter** in one simple menu.
 
-## ✨ Features
+## Features
 
 | Module | What it does |
 |---|---|
@@ -14,7 +14,7 @@ A command-line app that combines a **calculator**, **unit converter** and **curr
 | **Currency Conversion** | Converts between currencies such as INR, USD, JPY and GBP using the `CurrencyConverter` package |
 | **Safe input** | Invalid numbers, operators, units and currencies show a clear message instead of crashing |
 
-## 🚀 Getting Started
+## Getting Started
 
 ```bash
 git clone https://github.com/<DeXxM>/calculator-unit-converter.git
@@ -26,7 +26,7 @@ python Cal_Project.py
 > On Windows, use `py Cal_Project.py` if `python` doesn't work.
 > The `pip install` step is required, because the currency feature needs the `CurrencyConverter` package.
 
-## 🖥️ Demo
+## Demo
 
 ```
 ========================================
@@ -48,7 +48,7 @@ Result Value Type: miles
 Result: 10.0 km = 6.2137miles
 ```
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 calculator-unit-converter/
@@ -58,7 +58,7 @@ calculator-unit-converter/
 └── .gitignore
 ```
 
-## 📚 Python Libraries Used
+## Python Libraries Used
 
 | Library | Type | Purpose |
 |---|---|---|
@@ -66,14 +66,14 @@ calculator-unit-converter/
 
 Everything else (arithmetic, unit conversion, the menu and error handling) uses only plain Python: functions, dictionaries, `input()`, `print()` and `try/except`.
 
-## 🧠 How It Works
+## How It Works
 
 - **Arithmetic:** one `calculator()` function checks the operator and returns the result. Division by zero raises a clear error.
 - **Unit conversion:** every value is converted to a base unit (metre or kilogram) first, then to the target unit. Adding a new unit takes one line in a dictionary.
 - **Temperature:** values are converted through Celsius as a common middle step.
 - **Currency:** the app creates a `CurrencyConverter()` object, checks that both currency codes are supported, then converts the amount.
 
-## 🛣️ Roadmap
+## Roadmap
 
 - [ ] Volume, speed and time conversions
 - [ ] Expression parsing (`2 + 3 * 4`)
@@ -81,10 +81,10 @@ Everything else (arithmetic, unit conversion, the menu and error handling) uses 
 - [ ] Unit tests with `pytest`
 - [ ] Tkinter or Streamlit GUI
 
-## 🤝 Contributing
+## Contributing
 
 Ideas and pull requests are welcome. Open an issue to discuss what you'd like to change.
 
-## 👤 Author
+## Author
 
 **Devom Saini** — BCA (AI & Data Science), DY Patil University, Pune
